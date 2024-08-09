@@ -1,0 +1,87 @@
+
+
+   
+    <title>Categories Section</title>
+    <style>
+        .categories {
+            margin-top: 50px; /* Yukarıdan boşluk ekleyerek aşağı kaydırır */
+            padding: 20px; /* İçerik ile kenar arasına boşluk ekler */
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px; /* Başlık ile kategori listesi arasına boşluk ekler */
+        }
+        .category-list {
+            list-style-type: none; /* Liste işaretlerini kaldırır */
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Kategoriler arasına boşluk ekler */
+            justify-content: center; /* Kategorileri ortalar */
+        }
+        .category-item {
+            width: 150px; /* Her kategori öğesinin genişliği */
+            text-align: center;
+        }
+        .category-image {
+            width: 100%;
+            height: auto; /* Resmin yüksekliğini otomatik ayarlar */
+            display: block;
+        }
+        .category-title {
+            display: block;
+            margin-top: 10px; /* Resim ile başlık arasına boşluk ekler */
+        }
+    </style>
+</head>
+<body>
+    <!--!category start -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>All Categories</h2>
+                <p>Summer Collection New Modern Design</p>
+            </div>
+            <ul class="category-list">
+                <li class="category-item">
+                    <a href="#">
+                        <img src="images/smartphone.jpg" alt="Smartphone" class="category-image">
+                        <span class="category-title">Smartphone</span>
+                    </a>
+                </li>
+                <li class="category-item">
+                    <a href="#">
+                        <img src="images/watches.jpg" alt="Watches" class="category-image">
+                        <span class="category-title">Watches</span>
+                    </a>
+                </li>
+                <li class="category-item">
+                    <a href="#">
+                        <img src="images/electronics.jpg" alt="Electronics" class="category-image">
+                        <span class="category-title">Electronics</span>
+                    </a>
+                </li>
+                <li class="category-item">
+                    <a href="#">
+                        <img src="images/furnitures.jpg" alt="Furnitures" class="category-image">
+                        <span class="category-title">Furnitures</span>
+                    </a>
+                </li>
+                <li class="category-item">
+                    <a href="#">
+                        <img src="images/collections.jpg" alt="Collections" class="category-image">
+                        <span class="category-title">Collections</span>
+                    </a>
+                </li>
+                <li class="category-item">
+                    <a href="#">
+                        <img src="images/fashion.jpg" alt="Fashion" class="category-image">
+                        <span class="category-title">Fashion</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--! categories end -->
+</body>
+</html>
